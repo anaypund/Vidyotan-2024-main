@@ -1,0 +1,66 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;600;700;800;900&family=Bricolage+Grotesque&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@100;200;400;500;600;700;800;900&family=Nunito:wght@600&family=Poppins:wght@100;400;600;800;900&family=Roboto+Slab:wght@100;400;500;600;700;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&family=Rubik+Scribble&family=Young+Serif&display=swap');
+
+
+/* ---- reset ---- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+
+canvas {
+  display: block;
+ 
+  height: fit-content;
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;/* Set initial height to cover the content */
+  /* background-color: #000; */
+  z-index: -1; /* Ensure it's behind your content */
+  
+} /* ---- stats.js ---- */
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+.content {
+  /* Your existing styles for the content */
+  /* Adjust padding, margin, etc., as needed */
+  padding: 10px;
+  /* Other styles... */
+}
+
+/* In your CSS file */
+.font-inter {
+  font-family: 'Inter', sans-serif; /* Apply the 'Inter' font */
+  /* Other styles... */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
